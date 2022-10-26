@@ -1,6 +1,6 @@
 Application.boot(:models) do
   init do
-    require 'sequel/model§'
+    require 'sequel/model'
   end
 
   start do
