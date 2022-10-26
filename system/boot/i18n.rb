@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Application.boot(:i18n) do
   init do
     require 'i18n'

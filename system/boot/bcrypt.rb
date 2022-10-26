@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Application.boot(:bcrypt) do
   init do
     require 'bcrypt'

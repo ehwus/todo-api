@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'pry'
 require_relative './system/application'
 
@@ -42,6 +44,7 @@ namespace :db do
   end
 end
 
+desc 'Create Yard Docs'
 task :docs do
   sh %(yard doc *.rb app/ lib/)
 end

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Application.boot(:logger) do
   init do
     require 'logger'

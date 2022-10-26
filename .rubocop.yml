@@ -27,7 +27,7 @@ RSpec/NestedGroups:
   Max: 5
 Layout/LineLength:
   Max: 125
-  IgnoredPatterns: ['(\A|\s)#']
+  AllowedPatterns: ['(\A|\s)#']
 Layout/SpaceBeforeBrackets:
   Exclude:
     - 'db/migrate/*'

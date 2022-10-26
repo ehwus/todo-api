@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Application.boot(:models) do
   init do
     require 'sequel/model'
