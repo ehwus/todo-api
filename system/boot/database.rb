@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Application.boot(:database) do |container|
-  use :environmental_variables
+  use :environment_variables
 
   init do
     require 'sequel/core'
